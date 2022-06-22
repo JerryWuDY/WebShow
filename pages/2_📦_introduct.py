@@ -12,8 +12,7 @@ st.markdown('* **CUDA**\n'
             '基于C/C++的编程方法。支持异构编程的扩展方法，简单明了的APIs，能够轻松管理储存系统')
 
 with st.expander("Click here to see the Difference!"):
-    # img1 = Image.open("https://github.com/JerryWuDY/WebShow/tree/main/src/CUDA/GPUvsCPU.png")
-    img1 = "https://github.com/JerryWuDY/WebShow/tree/main/src/CUDA/GPUvsCPU.png"
+    img1 = "https://github.com/JerryWuDY/WebShow/raw/main/src/CUDA/GPUvsCPU.png"
     st.image(img1)
 
 
@@ -38,13 +37,11 @@ st.markdown(
 )
 
 with st.expander("- Device"):
-    # imgHardware = Image.open("https://github.com/JerryWuDY/WebShow/tree/main/src/CUDA.png")
-    imgHardware = "https://github.com/JerryWuDY/WebShow/tree/main/src/CUDA.png"
+    imgHardware = "https://github.com/JerryWuDY/WebShow/raw/main/src/CUDA/hardware.png"
     st.image(imgHardware)
 
 with st.expander("- SM"):
-    # imgSM = Image.open("D:/Urban/src/CUDA/sm.png")
-    imgSM = "D:/Urban/src/CUDA/sm.png"
+    imgSM = "https://github.com/JerryWuDY/WebShow/raw/main/src/CUDA/sm.png"
     st.image(imgSM)
 
 
@@ -56,10 +53,8 @@ st.markdown(
     "- Thread Block: a group of threads  执行在一个Streaming Multiprocessor (SM)  同一个Block中的线程可以协作\n"
     "- Thread Grid: a collection of thread blocks  一个Grid当中的Block可以在多个SM中执行"
 )
-# imgThread = Image.open("D:/Urban/src/CUDA/thread.png")
-imgThread = "D:/Urban/src/CUDA/thread.png"
+imgThread = "https://github.com/JerryWuDY/WebShow/raw/main/src/CUDA/thread.png"
 st.image(imgThread)
-
 
 st.markdown(
     "## CUDA程序的编写 \n"
@@ -79,10 +74,8 @@ st.markdown(
 st.markdown(
     "## CUDA 线程索引"
 )
-# imgthreadIndex = Image.open("https://github.com/JerryWuDY/WebShow/tree/main/src/CUDA.png")
-# imgPixel = Image.open("https://github.com/JerryWuDY/WebShow/tree/main/src/CUDA.jpg")
-imgthreadIndex = "https://github.com/JerryWuDY/WebShow/tree/main/src/CUDA.png"
-imgPixel = "https://github.com/JerryWuDY/WebShow/tree/main/src/CUDA.jpg"
+imgthreadIndex = "https://github.com/JerryWuDY/WebShow/raw/main/src/CUDA/thread_index2_python.png"
+imgPixel = "https://github.com/JerryWuDY/WebShow/raw/main/src/CUDA/Pixel.jpg"
 st.image(imgthreadIndex)
 st.image(imgPixel)
 
@@ -191,8 +184,7 @@ def main_matrix_mul():
 st.code(code_matmul_GPU_main)
 st.markdown("执行main函数，进行对比（采用实验室电脑）")
 
-# imgResult = Image.open("https://github.com/JerryWuDY/WebShow/tree/main/src/CUDA.png")
-imgResult = "https://github.com/JerryWuDY/WebShow/tree/main/src/CUDA.png"
+imgResult = "https://github.com/JerryWuDY/WebShow/raw/main/src/CUDA/result_compare.png"
 st.image(imgResult)
 st.write("倍数：",88.11427187919617/0.0820000171661377)
 st.markdown("If you want to know more, you can search for **{0}** or **{1}**  \n \t which you have to know the computer knowledge".format("Cython","Numba"))
