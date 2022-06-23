@@ -7,16 +7,16 @@ def Websidebar():
     st.sidebar.title("About")
     st.sidebar.info(
         """
-        Professor: <https://civil.sysu.edu.cn/teacher/477>
+        Professor: 就不告诉你
         Student  : Please call me Mr.handsome
         """
     )
 
     st.sidebar.title("Contact")
+    st.image("<https://github.com/JerryWuDY/WebShow/blob/main/src/BarPhoto/howdare.jpg>")
     st.sidebar.info(
         """
-        Prof.Zhao: <https://civil.sysu.edu.cn/teacher/477>
-        [Email](https://civil.sysu.edu.cn/teacher/477) | [Tel](https://civil.sysu.edu.cn/teacher/477)
+        [Email](https://github.com/JerryWuDY/WebShow/raw/main/src/BarPhoto/howdare.jpg) | [Tel](https://github.com/JerryWuDY/WebShow/raw/main/src/BarPhoto/howdare.jpg)
         """
     )
 
