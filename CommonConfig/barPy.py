@@ -13,7 +13,7 @@ def Websidebar():
     )
 
     st.sidebar.title("Contact")
-    st.image("<https://github.com/JerryWuDY/WebShow/raw/main/src/BarPhoto/howdare.jpg>")
+    # st.image("<https://github.com/JerryWuDY/WebShow/raw/main/src/BarPhoto/howdare.jpg>")
     st.sidebar.info(
         """
         [Email](https://github.com/JerryWuDY/WebShow/raw/main/src/BarPhoto/howdare.jpg) | [Tel](https://github.com/JerryWuDY/WebShow/raw/main/src/BarPhoto/howdare.jpg)
