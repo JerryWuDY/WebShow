@@ -121,7 +121,7 @@ with st.expander("GEE"):
     imgGEE = "https://github.com/JerryWuDY/WebShow/raw/main/src/GEE1.png"
     st.image(imgGEE)
 
-st.
+
 st.markdown(
     "## Paper deploy section） "
 )
